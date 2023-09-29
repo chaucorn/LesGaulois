@@ -26,7 +26,9 @@ public class Gaulois {
 		return "Gaulois [nom=" + nom + ", force=" + force + ", effetPotion=" + effetPotion + "]";
 	}
 	public static void main(String[] args) {
-	//TODO créer un main permettant de tester la classe Gaulois
-		
+		Gaulois asterix = new Gaulois("Asterix", 12);
+		asterix.parler("Bonjour");
+		Romain unRomain = new Romain("Romain de test", 10);
+		asterix.frapper(unRomain);
 	}
 }
