@@ -1,1 +1,8 @@
 Initial Commit
+
+ATTENTION : Si vous souhaitez modifier le nom d’une classe / méthode / attribut ou
+variable local :
+● sélectionner ce que vous souhaitez modifier
+● cliquer droit dessus
+● Refactor > Rename
+● ecrivez le nouveau nom puis tapez sur la touche entrer
